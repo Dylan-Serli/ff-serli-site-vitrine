@@ -1,13 +1,13 @@
 # Tableau de bord FF Serli
 
 Gérez vos fonctionnalités, projets et équipes – tout au même endroit.
-![Image du dashboard](/assets/dashboard.png)
+![Image du dashboard](/assets/dashboard/dashboard.png)
 
 Le tableau de bord FF Serli est votre centre de commande pour gérer vos feature flags à grande échelle.
 Que vous soyez un développeur solo ou une grande équipe, vous pouvez organiser vos flags de manière structurée et sécurisée.
 
 
-## 🏢 Organisations
+## Organisations
 
 Regroupez les utilisateurs et les projets liés.
 
@@ -18,7 +18,7 @@ Regroupez les utilisateurs et les projets liés.
 [voir les organisations](organizations)
 
 
-## 📁 Projets
+## Projets
 
 Chaque projet représente une application, un service ou un environnement.
 
@@ -29,7 +29,7 @@ Chaque projet représente une application, un service ou un environnement.
 [voir les projets](projects)
 
 
-## 🚩 Feature Flags
+## Feature Flags
 
 Le cœur de FF Serli. Activez ou désactivez vos fonctionnalités en temps réel.
 
@@ -39,7 +39,7 @@ Le cœur de FF Serli. Activez ou désactivez vos fonctionnalités en temps réel
 [voir les flags](flags)
 
 
-## 📊 Statistiques (bientôt disponible)
+## Statistiques (bientôt disponible)
 
 Suivez l’usage et l’impact de vos flags :
 

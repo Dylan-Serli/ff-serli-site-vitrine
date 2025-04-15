@@ -1,13 +1,13 @@
 # FF Serli Dashboard
 
 Manage your features, projects, and teams – all in one place.
-![Dashboard image](/assets/dashboard.png)
+![Dashboard image](/assets/dashboard/dashboard.png)
 
 The FF Serli dashboard is your control center for managing feature flags at scale.
 Whether you're a solo developer or a large team, you can organize your flags in a structured and secure way.
 
 
-## 🏢 Organizations
+## Organizations
 
 Group related users and projects together.
 
@@ -18,7 +18,7 @@ Group related users and projects together.
 [see organizations](organizations)
 
 
-## 📁 Projects
+## Projects
 
 Each project represents an application, service, or environment.
 
@@ -30,7 +30,7 @@ Each project represents an application, service, or environment.
 
 ---
 
-## 🚩 Feature Flags
+## Feature Flags
 
 The core of FF Serli. Toggle features in real time.
 
@@ -41,7 +41,7 @@ The core of FF Serli. Toggle features in real time.
 
 
 
-## 📊 Insights (coming soon)
+## Insights (coming soon)
 
 Track usage and impact of your flags:
 

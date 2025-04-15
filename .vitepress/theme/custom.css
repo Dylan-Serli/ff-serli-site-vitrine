@@ -1,0 +1,25 @@
+.organization-doc .image-row {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: no-wrap;
+}
+
+.organization-doc .image-row img {
+    max-width: 100%;
+    width: fit-content;
+    height: 500px;
+    object-fit: contain;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.organization-doc .center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
