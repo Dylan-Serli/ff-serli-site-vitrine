@@ -11,8 +11,8 @@ hero:
     alt: Logo FF Serli
   actions:
     - theme: brand
-      text: Voir le dashboard
-      link: /dashboard
+      text: Voir le tableau de bord
+      link: /fr/dashboard/index
     - theme: alt
       text: Nous contacter
       link: /contact

@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: See the dashboard
-      link: /dashboard
+      link: /dashboard/index
     - theme: alt
       text: Contact us
       link: /contact

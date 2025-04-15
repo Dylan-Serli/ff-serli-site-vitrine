@@ -13,7 +13,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: "Home", link: "/" },
-          { text: "Dashboard", link: "/dashboard" },
+          { text: "Dashboard", link: "/dashboard/index" },
           { text: "API", link: "/api" },
           {
             text: "SDKs",
@@ -27,10 +27,11 @@ export default defineConfig({
         ],
         sidebar: [
           {
-            text: "Examples",
+            text: "Dashboard",
             items: [
-              { text: "Markdown Examples", link: "/markdown-examples" },
-              { text: "Runtime API Examples", link: "/api-examples" },
+              { text: "Organizations", link: "/dashboard/organizations" },
+              { text: "Projects", link: "/dashboard/projects" },
+              { text: "Flags", link: "/dashboard/flags" },
             ],
           },
         ],
@@ -68,7 +69,7 @@ export default defineConfig({
         },
         nav: [
           { text: "Accueil", link: "/" },
-          { text: "Dashboard", link: "/dashboard" },
+          { text: "Tableau de bord", link: "/fr/dashboard/index" },
           { text: "API", link: "/api" },
           {
             text: "SDKs",
@@ -79,6 +80,16 @@ export default defineConfig({
           },
           { text: "Prix", link: "/pricing" },
           { text: "Contact", link: "/contact" },
+        ],
+        sidebar: [
+          {
+            text: "Tableau de bord",
+            items: [
+              { text: "Organisations", link: "/fr/dashboard/organizations" },
+              { text: "Projets", link: "/fr/dashboard/projects" },
+              { text: "Drapeaux", link: "/fr/dashboard/flags" },
+            ],
+          },
         ],
         outlineTitle: "Sur cette page",
         darkModeSwitchLabel: "Thème",
@@ -116,16 +127,6 @@ export default defineConfig({
       dark: "/assets/icone_super_serli.png",
       style: "transition: transform 0.3s ease;",
     },
-
-    sidebar: [
-      {
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
-      },
-    ],
     socialLinks: [
       {
         icon: "github",
