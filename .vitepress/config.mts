@@ -6,11 +6,71 @@ export default defineConfig({
   title: "FF Serli",
   description: "Documentation for the FF Serli dashboard",
   head: [["link", { rel: "icon", href: "/assets/icone_super_serli.png" }]],
+  locales: {
+    root: {
+      label: "English",
+      lang: "en",
+    },
+    fr: {
+      label: "Français",
+      lang: "fr",
+      themeConfig: {
+        search: {
+          provider: "local",
+          options: {
+            translations: {
+              button: {
+                buttonText: "Rechercher",
+              },
+              modal: {
+                noResultsText: "Pas de résultats",
+                resetButtonTitle: "Réinitialiser la recherche",
+                backButtonTitle: "Retour",
+                displayDetails: "Afficher la liste détaillée",
+                footer: {
+                  closeText: "fermer",
+                  selectText: "selectionner",
+                  navigateText: "naviguer",
+                },
+              },
+            },
+          },
+        },
+        nav: [
+          { text: "Accueil", link: "/" },
+          { text: "Dashboard", link: "/dashboard" },
+          { text: "API", link: "/api" },
+          {
+            text: "SDKs",
+            items: [
+              { text: "Serveur", link: "/sdk/server" },
+              { text: "Client", link: "/sdk/client" },
+            ],
+          },
+          { text: "Prix", link: "/pricing" },
+          { text: "Contact", link: "/contact" },
+        ],
+      },
+    },
+  },
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: "local",
+      options: {},
+    },
     nav: [
       { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
+      { text: "Dashboard", link: "/dashboard" },
+      { text: "API", link: "/api" },
+      {
+        text: "SDKs",
+        items: [
+          { text: "Server", link: "/sdk/server" },
+          { text: "Client", link: "/sdk/client" },
+        ],
+      },
+      { text: "Pricing", link: "/pricing" },
+      { text: "Contact", link: "/contact" },
     ],
     logo: {
       light: "/assets/icone_super_serli.png",
@@ -27,7 +87,6 @@ export default defineConfig({
         ],
       },
     ],
-
     socialLinks: [
       {
         icon: "github",
