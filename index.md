@@ -18,10 +18,10 @@ hero:
     #   link: /api-examples
 
 features:
-  - title: OpenFeature Standard Compliance
-    details: Seamless interoperability with any OpenFeature-compliant SDK
-  - title: Instant toggles
-    details: Instant toggles without redeploys
-  - title: Enterprise-Grade Reliability
-    details: Real-time updates with low-latency flag evaluation
+  - title: "🧩 OpenFeature Standard Compliance"
+    details: "Seamless interoperability with any OpenFeature-compliant SDK"
+  - title: "⚡ Instant toggles"
+    details: "Instant toggles without redeploys"
+  - title: "🏢 Enterprise-Grade Reliability"
+    details: "Real-time updates with low-latency flag evaluation"
 ---

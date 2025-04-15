@@ -2,8 +2,10 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: "en-US",
   title: "FF Serli",
   description: "Documentation for the FF Serli dashboard",
+  head: [["link", { rel: "icon", href: "/assets/icone_super_serli.png" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
