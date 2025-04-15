@@ -1,0 +1,29 @@
+/* Landing page specific styles */
+.landing-page h2 {
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    color: var(--vp-c-brand-1);
+    border-bottom: 1px solid var(--vp-c-divider);
+    padding-bottom: 0.3rem;
+}
+
+.landing-page blockquote {
+    border-left: 4px solid var(--vp-c-brand-1);
+    padding-left: 1rem;
+    color: var(--vp-c-text-2);
+    background-color: var(--vp-c-bg-soft);
+    border-radius: 6px;
+    margin: 1.5rem 0;
+}
+
+.landing-page ul,
+.landing-page ol {
+    padding-left: 1.4rem;
+    line-height: 1.6;
+}
+
+.landing-page hr {
+    margin: 2rem 0;
+    border: none;
+    border-top: 1px solid var(--vp-c-divider);
+}

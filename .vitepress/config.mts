@@ -10,6 +10,36 @@ export default defineConfig({
     root: {
       label: "English",
       lang: "en",
+      themeConfig: {
+        nav: [
+          { text: "Home", link: "/" },
+          { text: "Dashboard", link: "/dashboard" },
+          { text: "API", link: "/api" },
+          {
+            text: "SDKs",
+            items: [
+              { text: "Server", link: "/sdk/server" },
+              { text: "Client", link: "/sdk/client" },
+            ],
+          },
+          { text: "Pricing", link: "/pricing" },
+          { text: "Contact", link: "/contact" },
+        ],
+        sidebar: [
+          {
+            text: "Examples",
+            items: [
+              { text: "Markdown Examples", link: "/markdown-examples" },
+              { text: "Runtime API Examples", link: "/api-examples" },
+            ],
+          },
+        ],
+        outlineTitle: "On this page",
+        docFooter: {
+          prev: "Previous",
+          next: "Next",
+        },
+      },
     },
     fr: {
       label: "Français",
@@ -50,6 +80,15 @@ export default defineConfig({
           { text: "Prix", link: "/pricing" },
           { text: "Contact", link: "/contact" },
         ],
+        outlineTitle: "Sur cette page",
+        darkModeSwitchLabel: "Thème",
+        sidebarMenuLabel: "Menu",
+        returnToTopLabel: "Retour en haut",
+        lastUpdatedText: "Dernière mise à jour",
+        docFooter: {
+          prev: "Précédent",
+          next: "Suivant",
+        },
       },
     },
   },
