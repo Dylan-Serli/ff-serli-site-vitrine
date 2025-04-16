@@ -1,5 +1,5 @@
 ---
-pageClass: organization-doc
+pageClass: organization-doc doc
 ---
 # Organizations
 
@@ -97,4 +97,5 @@ From the members list, you can:
 - Remove a user from the organization
 
 > Only Owners and Admins can manage users.
+TODO
  -->

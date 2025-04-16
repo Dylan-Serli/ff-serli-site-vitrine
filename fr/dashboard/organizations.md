@@ -1,5 +1,5 @@
 ---
-pageClass: organization-doc
+pageClass: organization-doc doc
 ---
 # Organisations
 
