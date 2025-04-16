@@ -39,7 +39,6 @@ Built by engineers at [Serli](https://www.serli.com), FF Serli is:
 - **Lightweight**, scalable, and dev-friendly
 - Designed for both **backend and frontend** teams
 
----
 
 ## How it works
 
@@ -51,7 +50,6 @@ Built by engineers at [Serli](https://www.serli.com), FF Serli is:
 
 > Setup in minutes. Adapt as you scale.
 
----
 
 ## Frequently Asked Questions
 

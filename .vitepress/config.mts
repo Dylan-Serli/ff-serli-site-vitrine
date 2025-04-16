@@ -11,17 +11,22 @@ export default defineConfig({
       label: "English",
       lang: "en",
       themeConfig: {
+        search: {
+          provider: "local",
+          options: {},
+        },
         nav: [
           { text: "Home", link: "/" },
           { text: "Dashboard", link: "/dashboard/index" },
-          { text: "API", link: "/api" },
           {
             text: "SDKs",
             items: [
+              { text: "Presentation", link: "/sdk/" },
               { text: "Server", link: "/sdk/server" },
               { text: "Client", link: "/sdk/client" },
             ],
           },
+          { text: "API", link: "/api" },
           { text: "Pricing", link: "/pricing" },
           { text: "Contact", link: "/contact" },
         ],
@@ -32,6 +37,14 @@ export default defineConfig({
               { text: "Organizations", link: "/dashboard/organizations" },
               { text: "Projects", link: "/dashboard/projects" },
               { text: "Flags", link: "/dashboard/flags" },
+            ],
+          },
+          {
+            text: "SDKs",
+            items: [
+              { text: "Presentation", link: "/sdk/" },
+              { text: "Server", link: "/sdk/server" },
+              { text: "Client", link: "/sdk/client" },
             ],
           },
         ],
@@ -68,18 +81,19 @@ export default defineConfig({
           },
         },
         nav: [
-          { text: "Accueil", link: "/" },
+          { text: "Accueil", link: "/fr/index" },
           { text: "Tableau de bord", link: "/fr/dashboard/index" },
-          { text: "API", link: "/api" },
           {
             text: "SDKs",
             items: [
-              { text: "Serveur", link: "/sdk/server" },
-              { text: "Client", link: "/sdk/client" },
+              { text: "Présentation", link: "/fr/sdk/" },
+              { text: "Serveur", link: "/fr/sdk/server" },
+              { text: "Client", link: "/fr/sdk/client" },
             ],
           },
-          { text: "Prix", link: "/pricing" },
-          { text: "Contact", link: "/contact" },
+          { text: "API", link: "/fr/api" },
+          { text: "Prix", link: "/fr/pricing" },
+          { text: "Contact", link: "/fr/contact" },
         ],
         sidebar: [
           {
@@ -88,6 +102,14 @@ export default defineConfig({
               { text: "Organisations", link: "/fr/dashboard/organizations" },
               { text: "Projets", link: "/fr/dashboard/projects" },
               { text: "Drapeaux", link: "/fr/dashboard/flags" },
+            ],
+          },
+          {
+            text: "SDKs",
+            items: [
+              { text: "Présentation", link: "/fr/sdk/" },
+              { text: "Serveur", link: "/fr/sdk/server" },
+              { text: "Client", link: "/fr/sdk/client" },
             ],
           },
         ],
@@ -108,20 +130,6 @@ export default defineConfig({
       provider: "local",
       options: {},
     },
-    nav: [
-      { text: "Home", link: "/" },
-      { text: "Dashboard", link: "/dashboard" },
-      { text: "API", link: "/api" },
-      {
-        text: "SDKs",
-        items: [
-          { text: "Server", link: "/sdk/server" },
-          { text: "Client", link: "/sdk/client" },
-        ],
-      },
-      { text: "Pricing", link: "/pricing" },
-      { text: "Contact", link: "/contact" },
-    ],
     logo: {
       light: "/assets/icone_super_serli.png",
       dark: "/assets/icone_super_serli.png",

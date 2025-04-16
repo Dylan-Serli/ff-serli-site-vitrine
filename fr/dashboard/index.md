@@ -50,7 +50,7 @@ Suivez l’usage et l’impact de vos flags :
 
 ## 💡 Astuce
 
-N'oubliez pas d'intégrer l'un de nos [SDKs](/sdk/server) ou d'utiliser l'[API](/api) pour commencer à évaluer vos flags dans votre code.
+N'oubliez pas d'intégrer l'un de nos [SDKs](/sdk/index) ou d'utiliser l'[API](/api) pour commencer à évaluer vos flags dans votre code.
 
 
 Prêt à commencer ?
