@@ -54,4 +54,4 @@ N'oubliez pas d'intégrer l'un de nos [SDKs](../sdk/index) ou d'utiliser l'[API]
 
 
 Prêt à commencer ?
-➡️ Rendez-vous sur [votre tableau de bord](/login) et créez votre première organisation.
+➡️ Rendez-vous sur [votre tableau de bord](dashboard.ff-serli.com) et créez votre première organisation.

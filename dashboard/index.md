@@ -56,4 +56,4 @@ Don't forget to integrate one of our [SDKs](/sdk/index) or use the [API](/api/) 
 
 
 Ready to get started?
-➡️ Go to [Your Dashboard](/login) and create your first organization.
+➡️ Go to [Your Dashboard](dashboard.ff-serli.com) and create your first organization.
