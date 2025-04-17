@@ -31,3 +31,45 @@ const provider = new SerliProvider("your-organization-key");
 // Enregistrement du provider dans OpenFeature
 OpenFeature.setProvider(provider);
 ```
+## Utilisation
+
+Une fois le provider configuré, vous pouvez évaluer un flag depuis n'importe où dans votre application:
+
+```ts
+const client = OpenFeature.getClient();
+
+const isBetaEnabled = await client.getBooleanValue('enable-beta', false);
+
+if (isBetaEnabled) {
+  // activer la fonctionnalité beta
+} else {
+  // comportement par défaut
+}
+```
+
+:::tip 💡Bonnes pratiques
+Utilisez des clients nommés si vous gérez plusieurs projets ou environnements au sein d’un même service.
+:::
+
+#### Évaluation de plusieurs types de flags
+```ts
+// Booléen
+await client.getBooleanValue('feature-flag-name', false);
+
+// Chaîne de caractères
+await client.getStringValue('theme-mode', 'light');
+
+// Numérique
+await client.getNumberValue('max-retries', 3);
+
+// Objet
+const config = await client.getObjectValue('config-flag', { level: 'free' });
+```
+
+#### Évaluation avec les détails
+Vous pouvez récupérer les détails de l'évaluation et de la résolution des flags en utilisant les méthodes d'OpenFeature:
+```ts
+const flag_value = await client.getStringDetails('foo', 'baz');
+console.log(flag_value);
+// { value: 'bar', reason: 'CACHED', flagMetadata: {}, flagKey: 'foo' }
+```

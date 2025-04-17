@@ -60,7 +60,7 @@ Pour créer un flag :
   <img src="/assets/dashboard/flag-create.png" alt="Créer un flag" />
 </div>
 
-::: tip
+::: tip 💡
 Vous pouvez ajouter plusieurs variations à un flag en cliquant sur le bouton `+`.
 Vous pouvez ajouter des variations à tous les types de flags sauf les flags booléens.
 :::

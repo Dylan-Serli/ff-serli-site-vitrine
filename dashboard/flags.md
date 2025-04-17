@@ -58,7 +58,7 @@ To create a flag:
   <img src="/assets/dashboard/flag-create.png" alt="Create a flag" />
 </div>
 
-::: tip
+::: tip 💡
 You can add multiple variations to your flag by clicking on the `+` button.
 You can add variations to all types of flags except boolean flags.
 :::

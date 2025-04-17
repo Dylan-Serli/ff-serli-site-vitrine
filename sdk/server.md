@@ -2,32 +2,69 @@
 pageClass: sdk-doc doc
 ---
 
-# SDK Serveur FF Serli
+# FF Serli Server SDK
 
-Le SDK Serveur de FF Serli vous permet d’évaluer des feature flags dans vos applications backend tout en respectant la spécification [OpenFeature](https://openfeature.dev).
+The FF Serli Server SDK lets you evaluate feature flags in your backend applications while fully complying with the [OpenFeature](https://openfeature.dev) specification.
 
-Il est compatible avec des environnements tels que **Node.js**, **Deno**, **Bun**, ou tout runtime JavaScript côté serveur.
-
+It is compatible with environments such as **Node.js**, **Deno**, **Bun**, or any JavaScript server-side runtime.
 
 ## Installation
 
-Installez le SDK avec votre gestionnaire de paquets préféré :
+Install the SDK using your preferred package manager:
 
 ```bash
 npm install @ff-serli/sdk-server
 ```
 
 ## Configuration
-
-Voici comment configurer le SDK :
-
+Here's how to configure the SDK:
 ```ts
 import { OpenFeature } from '@openfeature/server-sdk';
 import { SerliProvider } from '@ff-serli/sdk-server';
 
-// Initialisation du provider FF Serli avec votre clé d’organisation
+// Initialize the FF Serli provider with your organization key
 const provider = new SerliProvider("your-organization-key");
 
-// Enregistrement du provider dans OpenFeature
+// Register the provider with OpenFeature
 OpenFeature.setProvider(provider);
+```
+## Usage
+Once configured, you can evaluation a flag from anywhere in your application
+```ts
+const client = OpenFeature.getClient();
+
+const isBetaEnabled = await client.getBooleanValue('enable-beta', false);
+
+if (isBetaEnabled) {
+  // enable beta feature
+} else {
+  // default behavior
+}
+```
+
+:::tip 💡 Best Practice
+Use named clients if you manage multiple projects or environments within the same service.
+:::
+
+#### Evaluating different flag types
+```ts
+// Boolean
+await client.getBooleanValue('feature-flag-name', false);
+
+// String
+await client.getStringValue('theme-mode', 'light');
+
+// Number
+await client.getNumberValue('max-retries', 3);
+
+// Object
+const config = await client.getObjectValue('config-flag', { level: 'free' });
+```
+
+#### Evaluation with details
+
+```ts
+const flagValue = await client.getStringDetails('foo', 'baz');
+console.log(flagValue);
+// { value: 'bar', reason: 'CACHED', flagMetadata: {}, flagKey: 'foo' }
 ```
