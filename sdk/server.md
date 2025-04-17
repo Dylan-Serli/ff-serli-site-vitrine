@@ -20,7 +20,7 @@ npm install @ff-serli/sdk-server
 Here's how to configure the SDK:
 ```ts
 import { OpenFeature } from '@openfeature/server-sdk';
-import { SerliProvider } from '@ff-serli/sdk-server';
+import SerliProvider from '@ff-serli/sdk-server';
 
 // Initialize the FF Serli provider with your organization key
 const provider = new SerliProvider("your-organization-key");
