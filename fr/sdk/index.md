@@ -40,6 +40,6 @@ Chaque section vous guide dans l’installation, la configuration et l’utilisa
 ## Vous n’utilisez pas nos SDKs ?
 
 Aucun souci !
-Vous pouvez toujours utiliser directement l’[API FF Serli](/api).
+Vous pouvez toujours utiliser directement l’[API FF Serli](../api/index).
 
 Notre système est conçu pour être flexible et indépendant de la plateforme — utilisez l’outil qui vous convient le mieux.

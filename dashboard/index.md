@@ -52,7 +52,7 @@ Track usage and impact of your flags:
 
 ## 💡 Tip
 
-Don't forget to integrate one of our [SDKs](/sdk/index) or use the [API](/api) to start evaluating flags in your code.
+Don't forget to integrate one of our [SDKs](/sdk/index) or use the [API](/api/) to start evaluating flags in your code.
 
 
 Ready to get started?

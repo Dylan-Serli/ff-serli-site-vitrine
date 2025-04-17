@@ -41,6 +41,6 @@ Each SDK section will guide you through installation, setup, and usage examples.
 ## Not using our SDKs?
 
 No problem!
-You can still use the [FF Serli API](/api) directly.
+You can still use the [FF Serli API](../api/index) directly.
 
 Our system is designed to be flexible and platform-agnostic — use what works best for you.

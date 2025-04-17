@@ -6,7 +6,7 @@ pageClass: flag-doc doc
 Feature flags are the core of FF Serli.
 They let you **control the behavior of your application at runtime** without redeploying code.
 
-Flags can be evaluated via our [SDKs](/sdk/index) or the [API](/api) and are fully compliant with the [OpenFeature](https://openfeature.dev) specification.
+Flags can be evaluated via our [SDKs](/sdk/index) or the [API](/api/) and are fully compliant with the [OpenFeature](https://openfeature.dev) specification.
 
 
 ## What is a Feature Flag?
