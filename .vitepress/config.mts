@@ -27,7 +27,7 @@ export default defineConfig({
             ],
           },
           { text: "API", link: "/api/" },
-          { text: "Pricing", link: "/pricing" },
+          { text: "Pricing", link: "/pricing/" },
           { text: "Contact", link: "/contact/" },
         ],
         sidebar: [
@@ -93,7 +93,7 @@ export default defineConfig({
             ],
           },
           { text: "API", link: "/fr/api/" },
-          { text: "Prix", link: "/fr/pricing" },
+          { text: "Prix", link: "/fr/pricing/" },
           { text: "Contact", link: "/fr/contact/" },
         ],
         sidebar: [

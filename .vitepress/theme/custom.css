@@ -23,3 +23,59 @@
     justify-content: center;
     align-items: center;
 }
+
+/* Pricing page styles */
+.pricing-doc .cta-row {
+    margin-top: 1rem;
+    text-align: center;
+}
+.pricing-doc .cta-row .vp-button {
+    margin: 0 0.5rem;
+}
+
+.pricing-doc .plan-cards {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin: 2rem 0;
+}
+
+.pricing-doc .plan-card {
+    padding: 1.5rem;
+    border: 1px solid var(--vp-c-divider);
+    border-radius: 8px;
+    background-color: var(--vp-c-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pricing-doc .plan-card h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    color: var(--vp-c-brand-1);
+}
+
+.pricing-doc .plan-card .price {
+    margin: 1rem 0;
+    font-size: 1.6rem;
+    line-height: 1.2;
+}
+
+.pricing-doc .plan-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem 0;
+}
+
+.pricing-doc .plan-card ul li {
+    margin: 0.5rem 0;
+}
+
+.pricing-doc .plan-card .cta-row {
+    text-align: center;
+}
+
+.pricing-doc .plan-card .vp-button {
+    width: 100%;
+}
