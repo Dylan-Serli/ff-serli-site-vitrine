@@ -72,8 +72,6 @@ Whether you’re a solo developer or a large enterprise, FF Serli has a plan fo
 
 </div>
 
-
-
 ## Frequently Asked Questions
 
 ### Can I change plans later?

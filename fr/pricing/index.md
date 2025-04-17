@@ -73,7 +73,6 @@ Que vous soyez un développeur indépendant ou une grande entreprise, FF Serli 
 
 </div>
 
----
 
 ## Questions fréquentes
 
