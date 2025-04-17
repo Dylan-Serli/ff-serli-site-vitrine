@@ -37,6 +37,10 @@ To dive into integration, choose the SDK that matches your use case:
 
 Each SDK section will guide you through installation, setup, and usage examples.
 
+:::tip 💡
+You can find a [github repository](https://github.com/Dylan-Serli/poc-ff-serli-openfeature) with examples for both SDKs.
+:::
+
 
 ## Not using our SDKs?
 

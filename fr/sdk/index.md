@@ -37,6 +37,11 @@ Choisissez le SDK qui correspond à votre usage :
 
 Chaque section vous guide dans l’installation, la configuration et l’utilisation concrète du SDK.
 
+
+:::tip 💡
+Vous pouvez trouver un [repository Github](https://github.com/Dylan-Serli/poc-ff-serli-openfeature) avec des exemples pour les deux SDKs.
+:::
+
 ## Vous n’utilisez pas nos SDKs ?
 
 Aucun souci !
