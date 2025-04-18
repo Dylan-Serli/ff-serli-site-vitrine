@@ -3,13 +3,13 @@ pageClass: project-doc doc
 ---
 # Projets
 
-Les projets dans FF Serli sont des conteneurs pour vos feature flags.
-Ils représentent des applications, des services ou des environnements dans lesquels les flags sont définis, regroupés et gérés.
+Les projets dans FF Serli sont des conteneurs pour vos drapeaux de fonctionnalités.
+Ils représentent des applications, des services ou des environnements dans lesquels les drapeaux sont définis, regroupés et gérés.
 
 Chaque projet est isolé et vous permet de :
 
-- Créer et organiser des feature flags
-- Gérer les flags par environnement (développement, staging, production)
+- Créer et organiser des drapeaux de fonctionnalités
+- Gérer les drapeaux par environnement (développement, staging, production)
 
 
 ## Créer un projet
@@ -31,12 +31,12 @@ Si vous choisissez **GitHub** :
 
 - Sélectionnez un dépôt GitHub
 - Choisissez un environnement (par exemple : `dev`, `staging`, `prod`)
-- Le projet est créé. Vous pouvez ensuite cliquer sur le bouton **« Importer les flags »**
+- Le projet est créé. Vous pouvez ensuite cliquer sur le bouton **« Importer les drapeaux »**
 
 FF Serli cherchera un fichier `flags.json` à la racine du dépôt.
-S'il existe, vos flags seront automatiquement importés.
+S'il existe, vos drapeaux seront automatiquement importés.
 
-Vous pouvez également créer vos flags manuellement dans le dashboard.
+Vous pouvez également créer vos drapeaux manuellement dans le dashboard.
 
 <div class="center">
   <img src="/assets/dashboard/project-import-flag-github.png" alt="Organisation" />
@@ -56,8 +56,8 @@ Si vous choisissez **Serli** :
 
 Vous pouvez ensuite :
 
-- Importer un fichier de flags local
-- Ou créer vos flags directement depuis le dashboard
+- Importer un fichier de drapeaux local
+- Ou créer vos drapeaux directement depuis le dashboard
 
 <div class="center">
   <img src="/assets/dashboard/project-import-flag-serli.png" alt="Organisation" />
@@ -83,7 +83,7 @@ Pour supprimer un projet :
 3. Confirmez la suppression en entrant le nom du projet
 
 ::: danger
-La suppression d’un projet entraîne la suppression de tous les flags associés. Cette action est irréversible.
+La suppression d’un projet entraîne la suppression de tous les drapeaux associés. Cette action est irréversible.
 :::
 
 <div class="center">

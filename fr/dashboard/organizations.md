@@ -3,7 +3,7 @@ pageClass: organization-doc doc
 ---
 # Organisations
 
-Les organisations dans FF Serli vous permettent de regrouper des utilisateurs, des projets et des feature flags dans un espace de travail partagé.
+Les organisations dans FF Serli vous permettent de regrouper des utilisateurs, des projets et des drapeaux de fonctionnalités dans un espace de travail partagé.
 Elles sont idéales pour les équipes, les entreprises ou les environnements qui nécessitent une séparation claire et une gestion fine des rôles.
 
 ## Qu'est-ce qu'une organisation ?
@@ -11,7 +11,7 @@ Elles sont idéales pour les équipes, les entreprises ou les environnements qui
 Une organisation est l’entité de plus haut niveau dans votre espace de travail FF Serli.
 Elle vous permet de :
 
-- Regrouper les projets et les feature flags
+- Regrouper les projets et les drapeaux de fonctionnalités
 - Inviter des membres d'équipe
 - Gérer les accès et les permissions
 - Centraliser la facturation et les paramètres
@@ -52,7 +52,7 @@ Pour renommer ou mettre à jour une organisation :
 
 ## Supprimer une organisation
 
-Supprimer une organisation **supprime tous les projets et feature flags associés**.
+Supprimer une organisation **supprime tous les projets et drapeaux de fonctionnalités associés**.
 
 Pour supprimer :
 
@@ -69,8 +69,8 @@ Cette action est irréversible.
 </div>
 
 
-## Gérer les utilisateurs et les permissions
-**Bientôt disponible**
+<!-- ## Gérer les utilisateurs et les permissions
+**Bientôt disponible** -->
 <!-- ## Gérer les utilisateurs
 
 Vous pouvez inviter des collaborateurs dans votre organisation et leur attribuer des rôles :
