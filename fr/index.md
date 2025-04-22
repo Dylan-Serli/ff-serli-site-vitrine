@@ -39,8 +39,6 @@ Développé par [Serli](https://www.serli.com), FF Serli est :
 - **Léger**, évolutif et conçu pour les devs
 - Adapté aussi bien au **frontend qu’au backend**
 
----
-
 ## Comment ça marche ?
 
 1. **Créez vos flags** dans le dashboard
@@ -51,7 +49,6 @@ Développé par [Serli](https://www.serli.com), FF Serli est :
 
 > Configuration en quelques minutes. Scalabilité intégrée.
 
----
 
 ## Questions fréquentes
 
