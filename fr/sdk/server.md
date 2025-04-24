@@ -31,6 +31,10 @@ const provider = new SerliProvider("votre-clé-d’organisation", "votre-id-de-p
 // Enregistrement du provider dans OpenFeature
 OpenFeature.setProvider(provider);
 ```
+
+:::tip
+Vous pouvez trouver votre clé d’organisation et votre id de projet dans le dashboard FF Serli.
+:::
 ## Utilisation
 
 Une fois le provider configuré, vous pouvez évaluer un flag depuis n'importe où dans votre application:

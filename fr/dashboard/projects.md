@@ -89,3 +89,12 @@ La suppression d’un projet entraîne la suppression de tous les drapeaux assoc
 <div class="center">
   <img src="/assets/dashboard/project-delete.png" alt="Organisation" />
 </div>
+
+
+## Avoir l'identifiant du projet
+Vous pouvez trouver l'identifiant du projet dans le dashboard en cliquant sur le projet.
+Dans la page du projet en haut à droite, vous trouverez l'identifiant du projet et pourrez le copier.
+
+<div class="center">
+  <img src="/assets/dashboard/project-id.png" alt="project id" />
+</div>

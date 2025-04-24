@@ -88,5 +88,11 @@ Deleting a project will remove all associated flags. This action is irreversible
 :::
 
 <div class="center">
-  <img src="/assets/dashboard/project-delete.png" alt="Organization" />
+  <img src="/assets/dashboard/project-delete.png" alt="project delete" />
+</div>
+
+## Get the project id
+You will need the project id to interact with the SDKs. You can find it in the dashboard in the top right of the project page and copy it.
+<div class="center">
+  <img src="/assets/dashboard/project-id.png" alt="project id" />
 </div>

@@ -28,6 +28,11 @@ const provider = new SerliProvider("your-organization-key", "your-project-id");
 // Register the provider with OpenFeature
 OpenFeature.setProvider(provider);
 ```
+
+:::tip
+You can find your organization key and project id in the FF Serli dashboard.
+:::
+
 ## Usage
 Once configured, you can evaluation a flag from anywhere in your application
 ```ts
