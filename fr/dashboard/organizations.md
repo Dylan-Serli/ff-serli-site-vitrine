@@ -48,7 +48,7 @@ Pour renommer ou mettre à jour une organisation :
 2. Modifiez le nom, la description ou le logo
 3. Enregistrez les modifications
 
-![](/assets/dashboard/organization-modal-filled.png)
+<!-- ![](/assets/dashboard/organization-modal-filled.png) -->
 
 ## Supprimer une organisation
 
@@ -68,6 +68,15 @@ Cette action est irréversible.
   <img src="/assets/dashboard/organization-delete.png" alt="Suppression d'organisation" />
 </div>
 
+## Avoir votre clé API
+
+Pour obtenir votre clé API :
+
+1. Allez dans les **paramètres de l’organisation** en sélectionnant l'organisation et en faisant un clic droit. Vous verrez la même fenêtre que lors de la création.
+2. Accédez à l'onglet **Informations API**.
+3. Copiez ou actualisez la clé API.
+
+![](/assets/dashboard/organization-modal-apikey.png)
 
 <!-- ## Gérer les utilisateurs et les permissions
 **Bientôt disponible** -->

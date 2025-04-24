@@ -52,7 +52,7 @@ To rename or update an organization:
 2. Change the name, description or logo
 3. Save your changes
 
-![](/assets/dashboard/organization-modal-filled.png)
+<!-- ![](/assets/dashboard/organization-modal-filled.png) -->
 
 ## Delete an Organization
 
@@ -71,6 +71,14 @@ This action is irreversible.
   <img src="/assets/dashboard/organization-delete.png" alt="Organization" />
 </div>
 
+## Get your API key
+
+To get your API key:
+1. go to the **organization settings** by selecting the organization and right clicking on it. You will be presented with the same popup as before.
+2. Go to the **API information** tab.
+3. You can copy the API key or refresh the key.
+
+![](/assets/dashboard/organization-modal-apikey.png)
 
 ## Manage Users and permissions
 **Coming soon**
