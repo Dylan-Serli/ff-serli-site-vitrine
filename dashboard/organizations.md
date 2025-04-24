@@ -80,8 +80,8 @@ To get your API key:
 
 ![](/assets/dashboard/organization-modal-apikey.png)
 
-## Manage Users and permissions
-**Coming soon**
+<!-- ## Manage Users and permissions
+**Coming soon** -->
 <!-- ## Manage Users
 
 You can invite collaborators to your organization and assign roles:
