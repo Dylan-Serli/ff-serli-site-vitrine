@@ -24,7 +24,7 @@ Voici comment configurer le SDK Client :
 import { OpenFeature } from '@openfeature/web-sdk';
 import SerliProvider from '@ff-serli/sdk-client';
 
-const provider = await SerliProvider.create("votre_clé_api");
+const provider = await SerliProvider.create("votre-clé-d’organisation", "votre-id-de-projet");
 
 // Enregistrez le provider dans OpenFeature
 OpenFeature.setProvider(provider);
