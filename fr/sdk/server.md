@@ -25,8 +25,8 @@ Voici comment configurer le SDK :
 import { OpenFeature } from '@openfeature/server-sdk';
 import SerliProvider from '@ff-serli/sdk-server';
 
-// Initialisation du provider FF Serli avec votre clé d’organisation
-const provider = new SerliProvider("your-organization-key");
+// Initialisation du provider FF Serli avec votre clé d’organisation et votre id de projet
+const provider = new SerliProvider("votre-clé-d’organisation", "votre-id-de-projet");
 
 // Enregistrement du provider dans OpenFeature
 OpenFeature.setProvider(provider);
